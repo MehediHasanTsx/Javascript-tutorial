@@ -8,4 +8,6 @@
 
 document.getElementById("heading_1").textContent = `Hello`;
 
-document.getElementById("para_1").textContent = `The quick brown fox jumps over the lazy dog.`
+document.getElementById("para_1").textContent = `The quick brown fox jumps over the lazy dog.`;
+
+document.getElementById("subheading").textContent = `Go to inspect then console log. `;
