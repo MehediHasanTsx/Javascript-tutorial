@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,45 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <!-- 4.user input start -->
-<h1 id="cmdh1">Welcome</h1>
+    <div class="main_div">
+        <div class="sub_div1">
+            <section class="heading">
+                <h1 class="topic">Introduction Section:</h1>
+                <h1 id="heading_1"></h1>
+                <p id="para_1"></p>
+                <h2 id="subheading"></h2>
+                <hr>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+            </section>
+            <hr>
+            <section class="user_input">
+                <h1 class="topic">User Input Section:</h1>
+                <h1 id="cmdh1">Welcome</h1>
+                <label>Username:</label>
+                <input id="cmdtext"><br><br>
+                <button id="cmdbtn">Submit</button>
+            </section>
+            <hr>
+            <section class="constant">
+                <h1 class="topic">Constant Section:</h1>
+                <h1 id="consth1">Enter the radius of a circle:</h1>
+                <label for="">Radius:</label>
+                <input id="constinp" type="text"><br><br>
+                <button id="constbtn">Submit</button>
+                <h3 id="constout"></h3>
+            </section>
+        </div>
 
-<label >Username:</label>
-<input id="cmdtext"><br><br>
-<button id="cmdbtn">Submit</button>
-
-<!-- 4.user input end -->
-
-<!-- 6.constant start -->
-<h1 id="consth1">Enter the radius of a circle:</h1>
-<label for="">Radius:</label>
-<input id="constinp" type="text"><br><br>
-<button id="constbtn">Submit</button>
-<h3 id="constout"></h3>
-<!-- 6.constant end -->
-
- <h1 id="heading_1"></h1>
- <p id="para_1"></p>
- <h2 id="subheading"></h2>
-
-<p id="p1"></p>
-<p id="p2"></p>
-<p id="p3"></p>
-
+        <div class="sub_div2">
+            <section class="counter_program">
+                 <h1 class="topic">Counter Program:</h1>
+            </section>
+        </div>
+    </div>
 
     <script src="javascript/1.index.js"></script>
     <script src="javascript/2.variable.js"></script>
@@ -40,5 +54,7 @@
     <script src="javascript/4.user_input.js"></script>
     <script src="javascript/5.type_conversion.js"></script>
     <script src="javascript/6.constants.js"></script>
+    <script src="javascript/7.counter_program.js"></script>
 </body>
+
 </html>
