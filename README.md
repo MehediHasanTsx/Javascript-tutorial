@@ -1,4 +1,4 @@
-# JavaScript Learning Projects by MehediHasanTsx
+# JavaScript Learning Projects by @MehediHasanTsx
 
 📚 This repository contains my JavaScript learning journey inspired by [Bro Code](https://www.youtube.com/c/BroCode) tutorials. It includes practice exercises, mini projects, and key concepts that I'm learning as I go.
 
