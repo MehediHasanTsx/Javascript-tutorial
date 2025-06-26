@@ -10,8 +10,8 @@
 
 // Professional way:
 let username;
-document.getElementById("cmdbtn").onclick = function(){
-username = document.getElementById("cmdtext").value;
- document.getElementById("cmdh1").textContent = `Hello ${username}`
- console.log(username);
+document.getElementById("cmdbtn").onclick = function () {
+    username = document.getElementById("cmdtext").value;
+    document.getElementById("cmdh1").textContent = `Hello ${username}`
+    console.log(username);
 }

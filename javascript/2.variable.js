@@ -11,7 +11,7 @@ console.log(`variable.js`)
 let a = 50; //if you know the exact value of variable
 let age = 20;
 let salary = 2000;
-let price =  "100";
+let price = "100";
 let cgpa = 3.5;
 
 console.log(`ABOVE SHOWS VARIABLE VALUE IN THE CONSOLE`); // above shows variable value in the console

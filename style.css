@@ -1,17 +1,19 @@
-body{
+body {
     font-family: sans-serif;
     font-size: 16px;
     /* text-align: center; */
 }
 
-.topic{
+.topic {
     /* text-align: center; */
     color: rgb(2, 250, 167);
 }
-section{
+
+section {
     padding: 30px;
 }
-.main_div{
+
+.main_div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

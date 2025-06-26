@@ -35,5 +35,5 @@ operator precedence
 */
 
 // let result = 1+2*3+4**2; //result is 23
-let result = 12%5+8/2; //result is 6
+let result = 12 % 5 + 8 / 2; //result is 6
 console.log(result);
