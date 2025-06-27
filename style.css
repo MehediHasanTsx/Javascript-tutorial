@@ -57,3 +57,64 @@ section {
     background-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 10px 2px rgb(0, 0, 0);
 }
+
+.rng_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rng_div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#rng_btn {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(107, 60, 1);
+    background-color: antiquewhite;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 4px 5px 6px 2px gray;
+
+}
+
+#rng_btn:hover {
+    background-color: rgb(169, 169, 248);
+    box-shadow: 5px 5px 10px 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#rng_btn:active {
+    background-color: rgb(1, 214, 233);
+}
+
+#rng_btn:focus {
+    background-color: rgb(0, 24, 103);
+    border: 3px solid wheat;
+    color: white;
+    box-shadow: 5px 5px 10px 2px rgb(45, 90, 237);
+}
+
+#rng_label {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 24, 103);
+}
+
+.rng_div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
