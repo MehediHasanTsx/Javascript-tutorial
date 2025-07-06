@@ -38,10 +38,22 @@
 document.getElementById("submit").onclick = function () {
     your_age = document.getElementById("enter_age").value;
 
-    if (your_age >= 18) {
-        document.getElementById("result").textContent = `You are adult and can open this website.`;
+    if (your_age >= 60) {
+        document.getElementById("result").textContent = `You are too old to drive. Age limit for senior citizens in bangladesh is 60+.`;
     }
+
+    
+    else if (your_age >= 18) {
+        document.getElementById("result").textContent = `You are adult and can have driving license.`;
+    }
+
+    else if (your_age < 0) {
+        document.getElementById("result").textContent = `Your age can't be below 0.`;
+    }
+
+
     else {
-        document.getElementById("result").textContent = `You can't open this website.`
+        document.getElementById("result").textContent = `You can't get driving license. You must be 18+ to have a license. `
     }
+
 }
