@@ -113,6 +113,22 @@ section {
     color: rgb(0, 24, 103);
 }
 
+#if_state{
+   font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 24, 103);
+}
+
+.result_if{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    align-items: center;
+}
+
 .rng_div3 {
     display: flex;
     align-items: center;

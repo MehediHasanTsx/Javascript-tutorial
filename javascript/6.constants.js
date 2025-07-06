@@ -18,9 +18,13 @@ document.getElementById("constbtn").onclick = function () {
     radius = Number(radius);
     circumference = 2 * PI * radius;
     area = PI * radius * radius;
+
     document.getElementById("constout").textContent = `Area and circumference of the circle is: ${area}cm and ${circumference}cm`;
+
     document.getElementById("consth1").textContent = `Above is area and circumference of the circle.`;
+
     console.log(`Area of the circle : ${area}cm`);
+
     console.log(`Circumference of the circle : ${circumference}cm`);
 }
 //------
